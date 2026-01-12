@@ -1,5 +1,5 @@
 # 🛒 E-Commerce Backend  
-### ASSIGNMENT_8_BACKEND
+### ASSIGNMENT_BACKEND
 
 This repository contains the backend of an e-commerce application built using **Node.js, Express.js, MongoDB (Mongoose)** with **JWT authentication** and **Cloudinary** for media storage.
 
@@ -82,4 +82,33 @@ CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 
-CORS_ORIGIN=http://localhost:5173
+CORS_ORIGIN=http://localhost:5174
+```
+
+---
+
+## Frontend
+
+- React 19
+- Vite
+- TypeScript
+- React Router DOM
+- Axios
+
+---
+
+## Backend Setup
+```
+cd Backend
+npm i
+npm run seed
+npm run dev
+```
+
+## Frontend Setup
+```
+cd Frontend
+npm i
+npm run dev
+```
+---
